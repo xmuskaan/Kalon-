@@ -1,7 +1,8 @@
 import pinkgem from './pinkgem.jpg';
 import Moonear from './Moonear.jpg';
 import heartear from './heartear.jpg';
-
+import {Link} from 'react-router-dom';
+ 
 const Featured = () => {
     return ( <div className="Featured"> 
     <div className="featuredCon">
@@ -27,7 +28,7 @@ const Featured = () => {
             </div>
         </div>
 
-        <button className="viewMore"><a href="products.html">View More</a></button>
+        <Link to = "/products"><button className="viewMore">View More</button></Link>
 
             <div className="featBottom">    
                 <h3>Be the first one to know about our latest releases!</h3>

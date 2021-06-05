@@ -11,7 +11,7 @@ const ContactPage = () => {
                 <div className="response">        
                     <input label="copyresponse" type="checkbox" />
                     <label  for="response">Send a copy of responses.</label>
-                    <button className="buttonSmall"><a href="Kalon1.html">Send message</a></button>
+                    <button className="buttonSmall">Send message</button>
                 </div>
             </form>
             

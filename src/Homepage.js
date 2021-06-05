@@ -4,10 +4,6 @@ import Moonear from './Moonear.jpg';
 import heartear from './heartear.jpg';
 import {Link} from 'react-router-dom';
 
-const handleClick = () => {
-    console.log('clicked');
-    <Link to = "/products"></Link>
-}
 
 const HomePage = () => {
 return (
@@ -18,7 +14,7 @@ return (
                 <div className="box1">
                     <h2>You have the design you have the code</h2>
                     <h4 className="smallText">We made it so beautiful and simple. It combines landings, pages, blogs and shop screens. It is definitely the tool you need in your collection!</h4> <br/> 
-                    <button onClick={handleClick} className="buttonSmall">EXPLORE</button>   
+                    <Link to = "/products"><button className="buttonSmall">EXPLORE</button> </Link>  
                 </div>
                 <div className="box2"> 
                     <div className="imageShowcase">
@@ -53,7 +49,7 @@ return (
             </div>
         </div>
 
-        <button onClick={handleClick} className="viewMore"><a href="products.html">View More</a></button>
+        <Link to = "/products"><button className="viewMore">View More</button></Link>
 
             <div className="featBottom">    
                 <h3>Be the first one to know about our latest releases!</h3>

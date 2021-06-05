@@ -95,11 +95,10 @@
   border-style: none;
   cursor:pointer;
   font-size: 15px;
-}
-
-.buttonSmall a{
   color:#FFD596;
 }
+
+
 
 .buttonSmall:hover{
   background-color: #be286e;
