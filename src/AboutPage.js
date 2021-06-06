@@ -1,9 +1,6 @@
 import {Link} from 'react-router-dom';
 
-const handleClick= () => {
-    <Link to="/contactus"></Link>
-    console.log('hi');
-}
+
 
 const AboutPage = () => {
     return (  

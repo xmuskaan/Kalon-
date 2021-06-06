@@ -6,15 +6,15 @@ const Footer = () => {
     <footer className="footer">  
         <div className="footer1">
             <div className="sub1">
-                <Link to=""className="aboutFooter">About</Link>
-                <a className="privacy" href="#">Privacy Policy</a>
-                <a className="Terms" href="#">Terms</a>
+                <Link to="" className="aboutFooter">About</Link>
+                <Link to="" className="privacy" >Privacy Policy</Link>
+                <Link to =""className="Terms" >Terms</Link>
             </div>
             
             <div className="sub2">
-                <a className="contacts" href="#">Contacts</a>
-                <a className="fbIcon" href="#"><i className='fab fa-facebook'></i></a>
-                <a className="igIcon" href="#"><i className='fab fa-instagram'></i></a>
+                <Link to ="" className="contacts" >Contacts</Link>
+                <Link to ="" className="fbIcon" ><i className='fab fa-facebook'></i></Link>
+                <Link to ="" className="igIcon" ><i className='fab fa-instagram'></i></Link>
             </div>
         </div>
         
@@ -23,7 +23,7 @@ const Footer = () => {
             Be sure to take a look at our Terms of Use and Privacy Policy
             </div>
             
-            <a className="devInfo" href="">Musk &copy; 2021</a> 
+            <Link to ="" className="devInfo"> Musk &copy; 2021</Link> 
         </div>  
     </footer>    
 );

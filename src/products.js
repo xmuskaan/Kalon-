@@ -1,15 +1,19 @@
+import productsData from "./productsData";
+
 const products = () => {
     return ( <div className="mainDiv">
-        let products= [
-            {Name: 'Earrings' , Image: 'url', Price: 'INR'},
-            {Name: 'Earrings' , Image: 'url', Price: 'INR'},
-            {Name: 'Earrings' , Image: 'url', Price: 'INR'},
-            {Name: 'Earrings' , Image: 'url', Price: 'INR'},
-            {Name: 'Earrings' , Image: 'url', Price: 'INR'},
-            {Name: 'Earrings' , Image: 'url', Price: 'INR'},
-            {Name: 'Earrings' , Image: 'url', Price: 'INR'},
-            {Name: 'Earrings' , Image: 'url', Price: 'INR'},]
-    </div> );
-}
- 
+
+        <div className="products">
+            <div className="imgContaniner">
+                <img src="{this.Image}" />
+            </div>
+
+            <h4>{this.Name}</h4>
+            <button className="priceButton"> {this.Price}</button>
+        </div>
+
+
+    </div>
+      
+)}
 export default products;

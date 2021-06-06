@@ -8,7 +8,7 @@ import hearEar from './heartEar.jpg';
 
 
 
-let products= [
+let productsData= [
     {Name: 'Earrings' , Image: 'pinkgem', Price: 'INR 60'},
     {Name: 'Earrings' , Image: 'moonearHollow', Price: 'INR 50'},
     {Name: 'Earrings' , Image: 'moonEar', Price: 'INR 50'},
@@ -16,3 +16,5 @@ let products= [
     {Name: 'Earrings' , Image: 'purpGem', Price: 'INR 60'},
    
 ]
+
+export default productsData;
