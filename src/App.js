@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import HomePage from './Homepage';
 import ContactPage from './ContactPage';
 import AboutPage from './AboutPage';
+import Products from './Products';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route exact path="/about">
         <AboutPage/>
+        </Route>
+        <Route exact path="/products">
+        <Products/>
         </Route>
         <Route exact path="/contactus">
         <ContactPage/>

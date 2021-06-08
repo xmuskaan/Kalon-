@@ -1,7 +1,7 @@
-import Showcaseimg from './Showcaseimg.png';
-import pinkgem from './pinkgem.jpg';
-import Moonear from './Moonear.jpg';
-import heartear from './heartear.jpg';
+import Showcaseimg from './Images/Showcaseimg.png';
+import pinkgem from './Images/pinkgem.jpg';
+import Moonear from './Images/Moonear.jpg';
+import heartear from './Images/heartear.jpg';
 import {Link} from 'react-router-dom';
 
 

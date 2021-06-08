@@ -299,7 +299,7 @@ margin-right:20px;
 
 .contactbg{
   background-color: #2F1893;
-  background-image: url("./bogdan-petrea-cM5P5KIeAKA-unsplash.jpg");
+  background-image: url("./Images/bogdan-petrea-cM5P5KIeAKA-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: 1520px 700px;
 }
@@ -474,4 +474,113 @@ input:focus {
 .revText{
   width:750px;
   height:160px;
+}
+
+/******* Products *********/
+
+.products{
+  width:1220px;
+  margin:auto;
+  margin-top:30px;
+}
+
+.proText{
+  text-align: center;
+}
+
+.proText h3{
+  font-size:30px;
+  color:#1E0E62;
+}
+
+.proText p{
+  width:420px;
+  margin:auto;
+  padding:10px;
+}
+
+.filterProducts{
+  width:600px;
+  display:flex;
+  justify-content: space-between;
+  margin: 50px 0px 20px 15px; 
+}
+
+.filter{
+  height:40px;
+  color:#151439;
+  border:0px;
+}
+
+.submitButton{
+  width:70px;
+  height:30px;
+  background-color:#8E1D53;
+  border-radius: 10px;
+  border-style: none;
+  cursor:pointer;
+  color:#F8CA86;
+  font-size: 13px;
+  margin-top:5px;
+}
+
+.productsList{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:10px;
+}
+
+.productsList>div{
+  border:1px solid #d9d2e8;
+  border-radius: 10px 10px 0px 0px;
+  justify-self:center;
+}
+
+.product .imgContainer{
+  width:370px;
+  height:390px;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+
+
+/* .product{
+  display: none;
+} */
+
+.show{
+  display: block;
+}
+.product .imgContainer .image {
+  transform: scale(1);
+  height: 100%;
+  width:100%;
+}
+
+.product .imgContainer .image:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+  border:0px;
+  /* transition: box-shadow .2s ease-in-out; */
+  
+}
+
+.productsList h4{
+  font-size:15px;
+  padding:10px;
+  margin-left:120px;
+}
+
+.productsList button{
+  width:100px;
+  height:40px;
+  background-color:#8E1D53;
+  border-radius: 100px;
+  border-style: none;
+  cursor:pointer;
+  color:#fff;
+  font-size: 15px;
+  margin-left:130px;
+  margin-bottom:10px;
 }
