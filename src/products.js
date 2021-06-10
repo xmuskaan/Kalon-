@@ -1,15 +1,20 @@
-import productsData from "./productsData";
+import productsData  from "./productsData";
 import ProductContainer from "./ProductContainer";
-import Filter from "./Filter";
+import {useState} from "react";
 
-const products = () => {
+const Products = () => {
+    const [prData, setprData] = useState([])
 
     function handleChange(e) {
-        productsData.map(products =>{ 
-        if (e.target.value=== 'earrings'){
-            console.log(productsData.includes('Earrings'));} })
+        const prType = e.target.value;
+        const productFilter = productsData.filter(prData => prData.Ftype === prType)
+         
+         setprData(productFilter);
+         console.log(setprData);
         }
     
+
+
     return ( 
     <div className="mainDiv">
         <div className="products">
@@ -19,10 +24,10 @@ const products = () => {
             </div>
             <div className="filterProducts">
                 <select className="filter" onChange={handleChange}name="productstype" >
-                    <option value="all">All</option>
-                    <option value="earrings" >Earrings</option>
-                    <option value="pendants" >Pendants</option>
-                    <option value="rings" >Rings</option>
+                    <option value="All">All</option>
+                    <option value="Earrings" >Earrings</option>
+                    <option value="Pendants" >Pendants</option>
+                    <option value="Rings" >Rings</option>
                 </select>
                 {/* <select class="filter" onchange="filterSelection(this.value)" name="color">
                     <option value="all">All</option>
@@ -53,4 +58,4 @@ const products = () => {
         <script src="Filter.js"></script>
     </div>
 )}
-export default products;
+export default Products;
