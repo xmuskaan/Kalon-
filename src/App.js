@@ -1,7 +1,7 @@
 import './App.css';
 import Footer from './Footer';
 import Navbar from './Navbar';
-
+import './responsive.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import HomePage from './Homepage';
 import ContactPage from './ContactPage';

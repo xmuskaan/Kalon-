@@ -481,7 +481,7 @@ input:focus {
 .products{
   width:1220px;
   margin:auto;
-  margin-top:30px;
+  margin-top:20px;
 }
 
 .proText{
@@ -528,6 +528,7 @@ input:focus {
   display:grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap:10px;
+  margin-top: 20px;
 }
 
 .productsList>div{
@@ -584,3 +585,5 @@ input:focus {
   margin-left:130px;
   margin-bottom:10px;
 }
+
+

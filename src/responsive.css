@@ -1,0 +1,173 @@
+/*************FOR MOBILE*****************/
+
+@media(max-width:740px) {
+    /*Navbar*/
+    .NavBar{
+      height: 80px;
+      }
+  
+  .container{
+      width:420px;
+      height:auto;
+      margin: auto;
+  }
+  
+  .navCon{
+      display:block;
+      }
+  
+  .navCon .Title{
+      font-size: 30px;
+      color:#F8CA86;
+      text-align: center;
+  }
+  .navCon span{
+    display: none;
+  }
+  
+  /*Showcase*/
+  
+  .Showcase{
+    width:100vw;
+  }
+  
+  .heroContent{
+    height:558px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .box1 h2{
+    color:#1E0E62;
+    font-size:35px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .smallText{
+    display: inline;
+    font-size: 13px;  
+  
+  }
+  
+  .box1 h4{
+    position: relative;
+    top:-18px;
+  
+  }
+  
+  .buttonSmall{
+    width:120px;
+    height:40px;
+    font-size: 13px;
+    position: relative;
+    left:120px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  
+  
+  }
+  
+  .imageShowcase{
+    overflow-y:hidden;
+  }
+  
+  .imageShowcase img{
+    width:90%;
+    height: 300px;
+    border-radius: 20px;
+  }
+  
+  /* Featured Products */
+
+  .Featured{
+      width: 550px;
+      height:97rem;
+  
+  }
+  
+  .featuredCon{
+    width:550px;
+    margin: auto;
+    }
+  
+   .featuredHead{
+    padding-top:30px;
+    padding-bottom: 50px;
+    width: 400px;
+    margin:auto;
+  }
+  
+  
+  .featProduct{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    }
+  
+  .featProduct img{
+  height:300px;
+  width:90%;
+  }
+  
+  .featProduct span{
+      display: none;
+  }
+     
+  .viewMore{
+    position:absolute;
+    left:180px;
+    width:120px;
+    height:40px;
+    font-size: 13px;
+    border-radius: 10px;
+  }
+  
+  .send{
+    position:relative;
+    top:80px;
+    right:180px;
+    width:120px;
+    height:40px;
+    font-size: 13px;
+    border-radius: 10px;
+    margin-top: 20px;
+   }
+ 
+  .featBottom{
+    margin-top: 90px;
+  }
+  .emailInfo{
+      position: relative;
+      left:80px;
+    }
+   
+
+
+/* Footer */
+
+.footer{
+    width:500px;
+    margin:auto;
+    margin-top: 20px;
+    height:90px;
+  
+  }
+ 
+  .footer1{
+    flex-direction: column;
+    } 
+
+  .footer2{
+    margin-top: 10px;
+    color:#151439;
+    opacity: 80%;
+  }
+  
+  .devInfo{
+    margin-top:10px;
+  } 
+  
+}  
