@@ -258,4 +258,60 @@
   width:350px;
 } 
 
+/******* Contact PAGE ************/
+
+.contactbg{
+  width:500px;
+  margin:auto;
+  height:50rem;
+  background-size: 520px 800px;
+}
+
+.contact{
+  width:400px;
+  margin:auto;   
+}
+
+.contact h3{
+  font-size:30px;
+  text-align: left;
+}
+
+.contactForm{
+  width:100px;
+  float: left;
+}
+
+.textLabel{
+  width:200px;
+}
+
+.textArea{
+  width:300px;
+  height:270px;
+}
+
+.call{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top:500px;
+  right:130px;
+}
+
+.textLine{
+  padding: 20px 0px 20px 110px;
+}
+
+.lineDivide{
+  width:300px; 
+}
+
+.contact h4{
+  position: relative;
+  right:75px;
+  top:520px;
+
+}
+
 }  

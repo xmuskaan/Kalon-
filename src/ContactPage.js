@@ -9,8 +9,6 @@ const ContactPage = () => {
                 <textarea className="textArea" placeholder="Your message.."></textarea>
                 <br/>
                 <div className="response">        
-                    <input label="copyresponse" type="checkbox" />
-                    <label  for="response">Send a copy of responses.</label>
                     <button className="buttonSmall">Send message</button>
                 </div>
             </form>
