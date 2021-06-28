@@ -317,4 +317,20 @@
   width:500px;
   margin: auto;
 }
+.proText{
+  margin-top: 30px;
+}
+.proText h3{
+  font-size:28px;
+}
+.productsList{
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
+}
+
+.product .imgContainer{
+  width:330px;
+  height:320px;
+}
+
 }  
