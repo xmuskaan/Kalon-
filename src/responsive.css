@@ -1,6 +1,6 @@
 /*************FOR MOBILE*****************/
 
-@media(max-width:740px) {
+@media(max-width:500px) {
     /*Navbar*/
     .NavBar{
       height: 80px;
@@ -28,7 +28,8 @@
   /*Showcase*/
   
   .Showcase{
-    width:100vw;
+    display: block;
+    height: 100vh;
   }
   
   .heroContent{
@@ -42,20 +43,12 @@
   .box1 h2{
     color:#1E0E62;
     font-size:35px;
-    margin-top: 10px;
     text-align: center;
   }
   
-  .smallText{
-    display: inline;
-    font-size: 13px;  
-  
-  }
-  
-  .box1 h4{
-    position: relative;
-    top:-18px;
-  
+  .smallText h4{
+    text-align: center;
+    left:12px;
   }
   
   .buttonSmall{
@@ -63,15 +56,17 @@
     height:40px;
     font-size: 13px;
     position: relative;
-    left:120px;
+    top: -35px;
+    left:140px;
     margin-bottom: 20px;
     border-radius: 10px;
-  
-  
+
   }
   
   .imageShowcase{
     overflow-y:hidden;
+    position: relative;
+    left:16px;
   }
   
   .imageShowcase img{
@@ -83,21 +78,18 @@
   /* Featured Products */
 
   .Featured{
-      width: 550px;
       height:97rem;
-  
   }
-  
+
   .featuredCon{
-    width:550px;
+    width:400px;
     margin: auto;
     }
   
    .featuredHead{
     padding-top:30px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     width: 400px;
-    margin:auto;
   }
   
   
@@ -110,6 +102,12 @@
   .featProduct img{
   height:300px;
   width:90%;
+  }
+  .featProduct>div:nth-of-type(1) {
+    margin-right: 0; 
+  }
+.featProduct>div:nth-of-type(3) {
+    margin-top: 0px; 
   }
   
   .featProduct span{
@@ -127,8 +125,8 @@
   
   .send{
     position:relative;
-    top:80px;
-    right:180px;
+    top:10px;
+    left:-10px;
     width:120px;
     height:40px;
     font-size: 13px;
@@ -141,24 +139,24 @@
   }
   .emailInfo{
       position: relative;
-      left:80px;
     }
-   
-
 
 /* Footer */
 
 .footer{
-    width:500px;
+    width:300px;
     margin:auto;
     margin-top: 20px;
-    height:90px;
-  
+    margin-bottom: 16px;
   }
  
   .footer1{
     flex-direction: column;
     } 
+  
+  .sub1{
+    margin-bottom: 8px;
+  }
 
   .footer2{
     margin-top: 10px;
