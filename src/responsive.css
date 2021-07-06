@@ -8,8 +8,6 @@
   
   .container{
       width:420px;
-      height:auto;
-      margin: auto;
   }
   
   .navCon{
@@ -17,13 +15,21 @@
       }
   
   .navCon .Title{
-      font-size: 30px;
-      color:#F8CA86;
-      text-align: center;
+      text-align: left;
+      margin-top:12px;
   }
   .navCon span{
     display: none;
   }
+
+  .openHamMenu i{
+    display: block;
+    cursor: pointer;
+    text-align: right;
+    position: absolute;
+    top:35px;
+    right:40px;
+}
   
   /*Showcase*/
   

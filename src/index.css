@@ -36,15 +36,35 @@
       align-items: center;
   }
   
+  
   .navCon .Title{
       font-size: 30px;
       color:#F8CA86;
   }
-  .navCon span{
-      margin-left:40px;
-  
+  .NavList{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left:125px;
   }
 
+  .NavList>span{
+    margin-left: 65px;
+  }
+
+  .openHamMenu i{
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+    color:#f5b75b;
+  }
+
+  .closeHamMenu i{
+  font-size: 25px;
+  display: none;
+  cursor: pointer;
+  color:#f5b75b;
+  }
   /* Showcase */
 
 .Showcase{
@@ -96,6 +116,7 @@
   cursor:pointer;
   font-size: 15px;
   color:#FFD596;
+  transition: opacity 1s ease-in;
 }
 
 
@@ -434,6 +455,7 @@ input:focus {
   color:#FF9800;
   font-size: 20px;
   margin-top:40px;
+  transition:opacity 1s ease-in;
 }
 
 .abFeatures{
