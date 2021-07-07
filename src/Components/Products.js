@@ -1,5 +1,6 @@
-import productsData  from "./productsData";
+import productsData  from "../productsData";
 import ProductContainer from "./ProductContainer";
+
 
 const Products = () => {
    

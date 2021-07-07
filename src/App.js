@@ -1,12 +1,12 @@
 import './App.css';
-import Footer from './Footer';
-import Navbar from './Navbar';
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
 import './responsive.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import HomePage from './Homepage';
-import ContactPage from './ContactPage';
-import AboutPage from './AboutPage';
-import Products from './Products';
+import HomePage from './Components/Homepage';
+import ContactPage from './Components/ContactPage';
+import AboutPage from './Components/AboutPage';
+import Products from './Components/Products';
 
 function App() {
   return (

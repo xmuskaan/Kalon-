@@ -13,60 +13,61 @@
   }
   
   
-  
   /* Navbar */
   
-  .NavBar{
-      height: 100px;
-      background-color: #8E1D53;
-      width: 100vw;
-      color:#fff;
-      display: grid;
-  
-  }
-  .container{
-      width:1100px;
-      height:auto;
-      margin: auto;
-  }
-  
-  .navCon{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
-  
-  
-  .navCon .Title{
-      font-size: 30px;
-      color:#F8CA86;
-  }
-  .NavList{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-  }
+.NavBar{
+  height: 100px;
+  background-color: #8E1D53;
+  width: 100vw;
+  color:#fff;
+  display: grid;
 
-  .NavList>span{
-    margin-left: 65px;
-  }
+}
+.container{
+  width:1100px;
+  height:auto;
+  margin: auto;
+}
 
-  .navLinks a:hover {
-    border-bottom:1px solid #FF9800;
-    padding:10px;
-    color:#f8ce96;
-    transition:0.4s ease-in ;
-    
-  }
+.navCon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .openHamMenu i{
-    font-size: 25px;
-    display: none;
-    cursor: pointer;
-    color:#f5b75b;
-  }
 
-  /* Showcase */
+.navCon .Title{
+  font-size: 30px;
+  color:#F8CA86;
+}
+.NavList{
+display: flex;
+flex-direction: row;
+position: relative;
+}
+
+.NavList>span{
+margin-left: 65px;
+}
+
+.navLinks a:hover {
+border-bottom:2px solid #ffd33b;
+padding: 10px 5px;
+padding-bottom: 2px;
+background: linear-gradient(45deg, #f5b75b, transparent);
+transition:0.3s ease-in ;
+
+}
+
+.openHamMenu i{
+font-size: 25px;
+display: none;
+cursor: pointer;
+color:#f5b75b;
+}
+
+
+/* Showcase */
 
 .Showcase{
   width:100vw;
@@ -266,7 +267,6 @@ margin-right:20px;
   color:#EBEBFF;
  
 }
-
 /* Footer */
 
 .footer{
@@ -315,80 +315,6 @@ margin-right:20px;
 
 .devInfo{
   margin-top:10px;
-}
-
-/******* Contact PAGE ************/
-
-.contactbg{
-  background-image: url("./Images/bogdan-petrea-cM5P5KIeAKA-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: 1520px 700px;
-}
-.contact{
-  width:1100px;
-  margin:auto;
-  height:90vh;   
-}
-
-.contact h3{
-  font-size:36px;
-  text-align: center;
-  margin-bottom:30px;
-  padding-top:30px;
-}
-
-.contactForm{
-  width:770px;
-  margin:auto;
-}
-.contactForm input[type=text]{
-  margin-right: 30px;
-}
-.textLabel{
-  width:330px;
-  height:50px;
-  border-radius: 100px;
-  border: 1px black solid;
-  margin-bottom:20px;
-  padding-left:30px;
-}
-
-input:focus {
-  border: 3px solid #555;
-}
-
-.textArea{
-  width:768px;
-  height:170px;
-  border-radius: 10px;
-  padding: 20px;
-}
-
-
-.response{
-  margin-top:20px;
-}
-
-.response button{
-  float:right;
-}
-
-.call{
-  display: flex;
-  margin-top:100px;
-  margin-left:150px;
-}
-.textLine{
-  padding: 0 20px 20px 20px;
-}
-.lineDivide{
-  width:350px; 
-}
-
-.contact h4{
-  text-align: center;
-  margin-left: 40px;
-
 }
 
 /***************ABOUT US*****************/
@@ -498,6 +424,81 @@ input:focus {
   height:160px;
 }
 
+/******* Contact PAGE ************/
+
+.contactbg{
+  background-image: url("./Images/bogdan-petrea-cM5P5KIeAKA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 1520px 700px;
+}
+.contact{
+  width:1100px;
+  margin:auto;
+  height:90vh;   
+}
+
+.contact h3{
+  font-size:36px;
+  text-align: center;
+  margin-bottom:30px;
+  padding-top:30px;
+}
+
+.contactForm{
+  width:770px;
+  margin:auto;
+}
+.contactForm input[type=text]{
+  margin-right: 30px;
+}
+.textLabel{
+  width:330px;
+  height:50px;
+  border-radius: 100px;
+  border: 1px black solid;
+  margin-bottom:20px;
+  padding-left:30px;
+}
+
+input:focus {
+  border: 3px solid #555;
+}
+
+.textArea{
+  width:768px;
+  height:170px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+.response{
+  margin-top:20px;
+}
+
+.response button{
+  float:right;
+}
+
+.call{
+  display: flex;
+  margin-top:100px;
+  margin-left:150px;
+}
+.textLine{
+  padding: 0 20px 20px 20px;
+}
+.lineDivide{
+  width:350px; 
+}
+
+.contact h4{
+  text-align: center;
+  margin-left: 40px;
+
+}
+
+
 /******* Products *********/
 
 .products{
@@ -574,7 +575,7 @@ input:focus {
   cursor:pointer;
   transform: scale(1.1);
   border:0px;
-  /* transition: box-shadow .2s ease-in-out; */
+  transition: box-shadow .2s ease-in-out;
   
 }
 
@@ -596,5 +597,14 @@ input:focus {
   margin-left:130px;
   margin-bottom:10px;
 }
+
+
+
+  
+
+  
+
+
+
 
 

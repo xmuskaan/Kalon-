@@ -44,7 +44,17 @@
     margin-left:0px;
     
   }
-
+  .navLinks:hover {
+    background-color:#be286e;
+    transition:0.4s ease-in ;
+  }
+  .navLinks a:hover {
+    border-bottom:0px;
+    padding:0px;
+    color:#fff;
+    transition:0.4s ease-in ;
+    
+  }
 
   .openHamMenu i{
     display: block;
@@ -55,7 +65,7 @@
     right:40px;
 }
   
-  /*Showcase*/
+  /***********Showcase******************/
   
   .Showcase{
     display: block;
@@ -105,7 +115,7 @@
     border-radius: 20px;
   }
   
-  /* Featured Products */
+  /*************** Featured Products ***********/
 
   .Featured{
       height:97rem;
@@ -171,7 +181,7 @@
       position: relative;
     }
 
-/* Footer */
+/**********Footer ***********/
 
 .footer{
     width:300px;
@@ -204,7 +214,7 @@
 }
 
 .aboutInfo{
-  width:500px;
+  width:420px;
   margin:auto;
   
 }
@@ -265,7 +275,7 @@
 
 .reviews{
   width: 300px;
-  height:500px;
+  height:480px;
   margin:auto;
 }
 
@@ -286,10 +296,10 @@
   width:350px;
 } 
 
-/******* Contact PAGE ************/
+/********* Contact PAGE ************/
 
 .contactbg{
-  width:500px;
+  width:480px;
   margin:auto;
   height:50rem;
   background-size: 520px 800px;
@@ -342,7 +352,7 @@
 
 }
 .products{
-  width:500px;
+  width:420px;
   margin: auto;
 }
 .proText{
