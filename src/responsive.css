@@ -11,16 +11,40 @@
   }
   
   .navCon{
-      display:block;
+      display:flex;
       }
   
   .navCon .Title{
       text-align: left;
       margin-top:12px;
   }
-  .navCon span{
-    display: none;
+
+  .NavList {
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 1s ease;
   }
+
+  .active {
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 1s ease;
+    z-index: 1;
+  }
+
+  .NavList>span{
+    text-align: center;
+    padding:50px;
+    margin-left:0px;
+    
+  }
+
 
   .openHamMenu i{
     display: block;

@@ -45,11 +45,18 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    left:125px;
   }
 
   .NavList>span{
     margin-left: 65px;
+  }
+
+  .navLinks a:hover {
+    border-bottom:1px solid #FF9800;
+    padding:10px;
+    color:#f8ce96;
+    transition:0.4s ease-in ;
+    
   }
 
   .openHamMenu i{
@@ -59,12 +66,6 @@
     color:#f5b75b;
   }
 
-  .closeHamMenu i{
-  font-size: 25px;
-  display: none;
-  cursor: pointer;
-  color:#f5b75b;
-  }
   /* Showcase */
 
 .Showcase{
