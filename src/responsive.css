@@ -41,9 +41,11 @@
   .NavList>span{
     text-align: center;
     padding:50px;
-    margin-left:0px;
-    
+    margin-left:0px;    
+    font-size:20px;
+
   }
+  
   .navLinks:hover {
     background-color:#be286e;
     transition:0.4s ease-in ;
@@ -53,7 +55,8 @@
     padding:0px;
     color:#fff;
     transition:0.4s ease-in ;
-    
+    background: none;
+ 
   }
 
   .openHamMenu i{
@@ -200,8 +203,7 @@
 
   .footer2{
     margin-top: 10px;
-    color:#151439;
-    opacity: 80%;
+    color:rgb(21 20 57 / 80%);
   }
   
   .devInfo{
@@ -299,14 +301,13 @@
 /********* Contact PAGE ************/
 
 .contactbg{
-  width:480px;
-  margin:auto;
+  width:500px;
   height:50rem;
   background-size: 520px 800px;
 }
 
 .contact{
-  width:400px;
+  width:365px;
   margin:auto;   
 }
 
@@ -351,6 +352,14 @@
   top:520px;
 
 }
+
+.sendMessage{
+  position: relative;
+  top:10px;
+  left:23px;
+}
+
+/************Products***************/
 .products{
   width:420px;
   margin: auto;
@@ -369,6 +378,10 @@
 .product .imgContainer{
   width:330px;
   height:320px;
+}
+
+.productsList button{
+  margin-left: 110px;
 }
 
 }  

@@ -11,7 +11,7 @@ const ContactPage = () => {
                 <textarea className="textArea" placeholder="Your message.."></textarea>
                 <br/>
                 <div className="response">        
-                    <button className="buttonSmall">Send message</button>
+                    <button className="buttonSmall sendMessage">Send message</button>
                 </div>
             </form>
             
