@@ -8,8 +8,8 @@ const Products = () => {
     <div className="mainDiv">
         <div className="products">
             <div className="proText">
-                <h3>New Shades for Summer</h3>
-                <p>The innovative detail of the original shoe was the "loose lining" of soft canvas that was intended to provide flexibility and prevent blisters.</p>
+                <h3>New Shades for every Season!</h3>
+                <p>We release new products for you every season so that you can go with the trend!</p>
             </div>
          
             <div className="productsList">

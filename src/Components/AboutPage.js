@@ -1,4 +1,6 @@
 import {Link} from 'react-router-dom';
+import msx from '../Images/msx.jpg';
+import callum from "../Images/callum.jpg"
 
 
 
@@ -12,12 +14,12 @@ const AboutPage = () => {
             </div>
 
             <div className="abImage">
-                <img src="" alt="Kirti"/>
+                <img src={msx} alt="Kirti"/>
                 <span className="kirtiText">Kirti Surname</span>
             </div>
 
             <div className="aboutText">
-            <span>We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.</span>         
+            <span>Kirti Saini founded Kalon after leaving her long-time career in finance to create accessible, timeless jewelry that modern womxn can buy for themselves, on their own terms.</span>         
             </div>
         </div>
         
@@ -27,9 +29,9 @@ const AboutPage = () => {
                 <Link to="/contactus"><button className="contactButton">Contact Now</button></Link> 
                 
                 <div className="abFeatures">
-                    <span className="feature">Fully handmade products</span>
-                    <span className="feature">Clean, Minimal & Modern Design</span>
-                    <span className="feature">Sustainable and eco-friendly!</span>
+                    <span className="feature"><i className="far fa-check-circle"/>Fully handmade products</span>
+                    <span className="feature"><i className="far fa-check-circle"/>Clean, Minimal & Modern Design</span>
+                    <span className="feature"><i className="far fa-check-circle"/>Sustainable and eco-friendly!</span>
                 </div>
             </div>
 
@@ -38,8 +40,8 @@ const AboutPage = () => {
         <div className="reviews">
             <h3 className="revHead"> Reviews from people who've brought our products</h3>
             <div className="revBody">
-                <img className="revImage" src="" alt="maybe"/>
-                <span className="revText">We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.</span> 
+                <img className="revImage" src={callum} alt="maybe"/>
+                <span className="revText">Your customer service is outstanding, your packaging is beautiful and the products I have received so far are wonderful - great quality!  Your catalog is fabulous.  I usually hate getting catalogs but yours will be staying with me and used often - it's pretty enough to leave on my coffee table!  But what I find most appealing is that your prices are better than most other options out there on almost every product!</span> 
             </div>
         </div>
     </div>

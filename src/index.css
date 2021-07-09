@@ -336,13 +336,18 @@ margin-right:20px;
 
 }
 
-.abImage{
+.abImage img{
   width:350px;
   height:240px;
   border:1px solid black;
   position:absolute;
   top:180px;
 
+}
+
+.kirtiText{
+  position: relative;
+  top:60px;
 }
 
 .aboutText{
@@ -390,9 +395,12 @@ margin-right:20px;
   justify-content: space-between;
   margin-top:64px;
   color:#fff;
-  margin-left: 100px;
+  margin-left: 54px;
 
 
+}
+.far{
+  margin-right:8px;
 }
 
 .reviews{
@@ -414,13 +422,15 @@ margin-right:20px;
 }
 
 .revImage{
-  width:255px;
-  height:56px;
+  width:230px;
+  height:200px;
 }
 
 .revText{
   width:750px;
   height:160px;
+  position: relative;
+  top:40px;
 }
 
 /******* Contact PAGE ************/
@@ -486,6 +496,7 @@ input:focus {
 }
 .textLine{
   padding: 0 20px 20px 20px;
+  color:#d9d2e8;
 }
 .lineDivide{
   width:350px; 
@@ -494,7 +505,7 @@ input:focus {
 .contact h4{
   text-align: center;
   margin-left: 40px;
-
+  color:#d9d2e8;
 }
 
 

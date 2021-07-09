@@ -13,8 +13,8 @@ return (
         <div className="container">
             <div className="heroContent">
                 <div className="box1">
-                    <h2>You have the design you have the code</h2>
-                    <h4 className="smallText">We made it so beautiful and simple. It combines landings, pages, blogs and shop screens. It is definitely the tool you need in your collection!</h4> <br/> 
+                    <h2>Homemade Jewellery just for you</h2>
+                    <h4 className="smallText">We made this jewellery so beautiful and simple.You definitely want to add this to your collection!</h4> <br/> 
                     <Link to = "/products"><button className="buttonSmall">EXPLORE</button> </Link>  
                 </div>
                 <div className="box2"> 
@@ -30,7 +30,7 @@ return (
       <div className="featuredCon">
         <div className="featuredHead">
             <h2>Best Selling Products</h2>  
-           <span className="smallText">Advantages include excellent sound quality, and the fact that they do not require any batteries. Gamers often prefer wired headphones so they never have to worry about batteries dying in the middle of a heated match.</span>
+           <span className="smallText">Presenting you our best featured products that our customers love!</span>
         </div>    
         
         <div className="featProduct">
