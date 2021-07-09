@@ -15,11 +15,11 @@ const AboutPage = () => {
 
             <div className="abImage">
                 <img src={msx} alt="Kirti"/>
-                <span className="kirtiText">Kirti Surname</span>
+                <span className="kirtiText">Kirti Saini</span>
             </div>
 
             <div className="aboutText">
-            <span>Kirti Saini founded Kalon after leaving her long-time career in finance to create accessible, timeless jewelry that modern womxn can buy for themselves, on their own terms.</span>         
+            <span>Kirti Saini founded Kalon after leaving her long-time career in finance to create accessible, timeless jewelry that modern women can buy for themselves, on their own terms.</span>         
             </div>
         </div>
         

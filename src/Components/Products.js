@@ -20,7 +20,6 @@ const Products = () => {
                 }
             </div>
         </div>
-        <script src="Filter.js"></script>
     </div>
 )}
 export default Products;

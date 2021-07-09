@@ -36,17 +36,17 @@ return (
         <div className="featProduct">
             <div> 
                 <img src={pinkgem} alt="pink gem"/>
-                <span className="imageText">Some Text</span>
+                <span className="imageText">Pink Gem Earrings</span>
             </div>
 
             <div> 
             <img src= {Moonear} alt ="Moon earrings"/>
-            <span className="imageText">Some Text</span>
+            <span className="imageText">Moon Earrings</span>
             </div>
                     
             <div> 
             <img src={heartear} alt="heart earrings" />
-            <span className="imageText">Some Text</span>
+            <span className="imageText">Heart Earrings</span>
             </div>
         </div>
 

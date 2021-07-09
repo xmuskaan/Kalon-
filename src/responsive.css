@@ -51,12 +51,9 @@
     transition:0.4s ease-in ;
   }
   .navLinks a:hover {
-    border-bottom:0px;
-    padding:0px;
     color:#fff;
+    font-style:normal;
     transition:0.4s ease-in ;
-    background: none;
- 
   }
 
   .openHamMenu i{
@@ -232,28 +229,33 @@
   font-size: 30px;
 }
 
-.abImage{
+.abImage img{
   width:250px;
   height:150px;
   position:absolute;
   top:180px;
-  left:130px;
+  left:138px;
 }
 
 .aboutText{
-  width:350px;
+  width:280px;
   position:absolute;
-  left:90px;
-  top:370px;
+  left:120px;
+  top:400px;
   text-align: center;
 }
 
+.kirtiText{
+  top:265px;
+  left:200px;
+}
 .connectContainer{
   width:400px;
 }
 
 .connectHead{
   font-size:32px;
+  padding-top:30px;
 }
 
 .contactButton{
@@ -267,7 +269,7 @@
 .abFeatures{
   display:flex;
   flex-direction:column;
-  margin-top:25px;
+  margin-top:30px;
   margin-left: 0px;
 }
 
@@ -275,6 +277,9 @@
   margin-bottom: 16px;
 }
 
+.far{
+  margin-right: 4px;
+}
 .reviews{
   width: 300px;
   height:480px;
@@ -283,19 +288,27 @@
 
 .revHead{
   margin-top: 40px;
+  text-align: center;
+  margin-left: 22px;
 }
 
 .revBody{
   flex-direction:column;
+  margin-top: 30px;
 }
 
 .revImage{
-  width:250px;
+  width:150px;
   height:150px;
+  position: relative;
+  left:90px;
+
 }
 
 .revText{
   width:350px;
+  text-align: center;
+
 } 
 
 /********* Contact PAGE ************/

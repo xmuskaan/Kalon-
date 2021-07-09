@@ -339,7 +339,6 @@ margin-right:20px;
 .abImage img{
   width:350px;
   height:240px;
-  border:1px solid black;
   position:absolute;
   top:180px;
 
@@ -592,7 +591,7 @@ input:focus {
 .productsList h4{
   font-size:15px;
   padding:10px;
-  margin-left:120px;
+  text-align: center;
 }
 
 .productsList button{

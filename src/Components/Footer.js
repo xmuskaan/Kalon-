@@ -24,7 +24,7 @@ const Footer = () => {
             Be sure to take a look at our Terms of Use and Privacy Policy
             </div>
             
-            <Link to ="www.linkedin.com/in/muskaanranga" className="devInfo"> Musk &copy; 2021</Link> 
+            <a href="https://www.linkedin.com/in/muskaanranga" target="blank" className="devInfo"> Musk &copy; 2021</a> 
         </div>  
     </footer>    
 );
