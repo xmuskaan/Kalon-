@@ -81,7 +81,7 @@
   
   
   .box1 h2{
-    color:#1E0E62;
+    padding-right: 0px;
     font-size:35px;
     text-align: center;
   }
@@ -118,7 +118,7 @@
   /*************** Featured Products ***********/
 
   .Featured{
-      height:97rem;
+      height:92rem;
   }
 
   .featuredCon{
